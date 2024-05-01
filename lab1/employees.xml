@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE company SYSTEM "company.dtd">
+<company>
+    <department id="d1">
+        <name>HR</name>
+        <employee id="e101">
+            <name>John Doe</name>
+            <position>Manager</position>
+        </employee>
+        <employee id="e102">
+            <name>Jane Smith</name>
+            <position>Recruiter</position>
+        </employee>
+    </department>
+    <department id="d2">
+        <name>IT</name>
+        <employee id="e201">
+            <name>Mike Brown</name>
+            <position>Developer</position>
+        </employee>
+        <employee id="e202">
+            <name>Susan Brian</name>
+            <position>System Analyst</position>
+        </employee>
+    </department>
+</company>
