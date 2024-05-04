@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Departments</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>Departments</h1>
+    <ul>
+        {% for department in departments %}
+        <li>{{ department.name }} - Located in: {{ department.location }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
